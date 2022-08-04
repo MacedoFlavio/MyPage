@@ -3,6 +3,7 @@ footer {
   grid-template-columns: 1fr 1fr;
   justify-items: end;
   align-items: center;
+  padding: 1rem;
 }
 
 .footer-icons ul {
