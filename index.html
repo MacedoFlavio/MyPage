@@ -1,23 +1,189 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Flávio Macedo</title>
 </head>
 
 <body>
 
-  <script src="script.js"></script>
+  <div class="row">
+    <header class="header">
+      <div class="header-logo">
+        <img src="./img/logo.svg" alt="Logo Flávio Macedo">
+      </div>
 
+      <nav class="header-menu">
+        <ul>
+          <li><a href="#quemsou">Quem sou</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#curriculo">Currículo</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
 
-  <h1>teste</h1>
-  <!--
+  <!-- Quem sou -->
+  <section class="quemsou" id="quemsou">
+    <h1>quem sou?</h1>
+    <div class="quemsou-layout">
+      <div class="quemsou-foto">
+        <img src="./img/foto.jpg" alt="Foto Perfil">
+      </div>
+      <div class="quemsou-descricao">
+        <p>
+          Me chamo Flávio, carioca da gema, vascaíno, nascido no ano de 1979, leonino, amante de boa conversa, risos e
+          resenhas entre família e amigos.
+        </p>
+        <p>
+          Gosto de sinuca, futebool, gibi e inventar alguma coisa.
+        </p>
+        <p>
+          Tenho como objetivo principal me realocar no mercado seja formal ou informalmente, mercado que estive por
+          longos 14 anos.
+        </p>
+        <p>
+          Entusiasta de tecnologia, dedicado, proeficiente, amante de desafios e do trabalho em grupo.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formação -->
+  <div class="row">
+    <section id="formacao">
+      <div class="formacao-info">
+        <h1>formação</h1>
+        <h2>Superior Incompleto</h2>
+        <h3>Engenharia de Software</h3>
+        <p>Instituto Infnet - <span>2022 / 2026</span></p>
+      </div>
+      <div class="formacao-cursoExtras">
+        <h2>Cursos Extras</h2>
+        <div class="formacao-certificados">
+          <div class="formacao-certificados-itens">
+            <img src="./img/Rectangle 5.png" alt="">
+            <span class="formacao-rotulo">UI Desing <br />iniciante</span>
+          </div>
+          <div class="formacao-certificados-itens">
+            <img src="./img/Rectangle 5.png" alt="">
+            <span class="formacao-rotulo"> HTML e CSS <br />iniciante</span>
+          </div>
+          <div class="formacao-certificados-itens">
+            <img src="./img/Rectangle 5.png" alt="">
+            <span class="formacao-rotulo">FlexBox</span>
+          </div>
+          <div class="formacao-certificados-itens">
+            <img src="./img/Rectangle 5.png" alt="">
+            <span class="formacao-rotulo">CSS Grid</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Currículo -->
+  <section id="curriculo">
+    <h1>currículo</h1>
+    <div class="curriculo-descricao">
+      <div class="curriculo-descricao-itens">
+        <h3>Prove Consultoria em TI</h3>
+        <h5>Autônomo - 2020</h5>
+        <p>
+          Participando de projetos da fábrica de softwares.
+        </p>
+        <p>
+          <span>(HTML - CSS - JavaScript - .Net - Entity - SQL Server)</span>
+        </p>
+      </div>
+
+      <div class="curriculo-descricao-itens">
+        <h3>Nokia Siemens</h3>
+        <h5>Desenvolvedor web - 2011</h5>
+        <p>
+          Desenvolvendo a intranet da empresa, para auxiliar no atendimento ao cliente.
+        </p>
+        <p>
+          <span>(HTML - CSS - PHP - MySQL)</span>
+        </p>
+      </div>
+
+      <div class="curriculo-descricao-itens">
+        <h3>Curso ADV Informática</h3>
+        <h5>Instrutor Pleno 3 - 2007</h5>
+        <p>
+          Ministrando treinamentos de programação, informática e design.
+        </p>
+        <p>
+          <span>(Pacote Office - Algoritmos - HTML - CSS - JavaScript - .Net 2.0 - PHP - My SQL - Illustrator - Corel
+            Draw - Photoshop)</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <div class="row">
+
+    <section class="contato" id="contato">
+      <h1>contato</h1>
+      <div class="contato-icons">
+        <div>
+          <img src="./img/github.svg" alt="icone Github">
+        </div>
+        <div>
+          <img src="./img/linkein.svg" alt="icone LinkedIn">
+        </div>
+        <div>
+          <img src="./img/arroba.svg" alt="icone Email">
+        </div>
+        <div>
+          <img src="./img/whatsapp.svg" alt="icone Whatsapp">
+        </div>
+      </div>
+      <div class="contato-form">
+        <form action="">
+          <label for="Nome">Nome</label>
+          <input type="text" name="nome" id="nome">
+          <label for="Email">Email</label>
+          <input type="email" name="email" id="email">
+          <button> Enviar</button>
+        </form>
+      </div>
+
+    </section>
+  </div>
+
+  <div class="row">
+    <footer>
+      <p>flavio.macedo@al.infnet.edu.br</p>
+      <div class="footer-icons">
+        <ul>
+          <li><a href=""><img src="./img/github.svg" alt="icone Github"></a></li>
+          <li><a href=""><img src="./img/linkein.svg" alt="icone LinkedIn"></a></li>
+          <li><a href=""><img src="./img/arroba.svg" alt="icone Email"></a></li>
+          <li><a href=""><img src="./img/whatsapp.svg" alt="icone Whatsapp"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
+<!--
 This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
 -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
 </body>
 
 </html>

@@ -1,0 +1,75 @@
+body,
+html,
+h1,
+h2,
+h3,
+h5,
+p,
+ul,
+li,
+a,
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1, 25rem;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#quemsou,
+#formacao,
+#curriculo,
+#contato {
+  width: 45rem;
+  margin: 2.5rem auto;
+}
+
+.row {
+  width: 100%;
+  background: #141414;
+  color: #f7f7f7;
+  padding: 1.5rem 0;
+}
+
+.row:nth-child(5) {
+  margin-bottom: 20rem;
+}

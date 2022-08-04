@@ -1,0 +1,11 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  align-items: center;
+}
+
+.footer-icons ul {
+  display: flex;
+  gap: 1.5rem;
+}

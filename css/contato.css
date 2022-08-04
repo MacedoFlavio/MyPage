@@ -1,0 +1,45 @@
+.contato {
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "listIcons form";
+  justify-content: space-between;
+  align-content: start;
+}
+
+.contato h1 {
+  grid-area: title;
+}
+
+.contato-icons {
+  grid-area: listIcons;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 3rem;
+}
+
+.contato-form form {
+  grid-area: form;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contato-form form input[type="text"],
+.contato-form form input[type="email"] {
+  width: 18.75rem;
+  height: 2rem;
+}
+
+.contato-form form label {
+  font-size: 1.25rem;
+}
+
+button {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background: #4a99ff;
+  border-radius: 4px;
+}

@@ -1,0 +1,17 @@
+.quemsou-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.quemsou-foto img {
+  border-radius: 4px;
+}
+
+.quemsou-descricao p {
+  line-height: 1.4;
+}
+
+.quemsou-descricao p + p {
+  margin-top: 1.5rem;
+}
